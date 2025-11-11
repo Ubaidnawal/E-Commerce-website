@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch and Shows - Premium Timepieces Collection</title>
+    <meta name="description" content="Discover our exclusive collection of premium watches and timepieces at Watch and Shows. Find luxury watches, smartwatches, and classic timepieces for every style.">
+    <meta name="keywords" content="watches, luxury watches, smartwatches, timepieces, premium watches, watch store">
+    <meta name="author" content="Watch and Shows">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Watch and Shows - Premium Timepieces Collection">
+    <meta property="og:description" content="Discover our exclusive collection of premium watches and timepieces at Watch and Shows.">
+    <meta property="og:image" content="https://picsum.photos/seed/watchandshows/1200/630.jpg">
+    <meta property="og:url" content="https://www.watchandshows.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Watch and Shows - Premium Timepieces Collection">
+    <meta name="twitter:description" content="Discover our exclusive collection of premium watches and timepieces at Watch and Shows.">
+    <meta name="twitter:image" content="https://picsum.photos/seed/watchandshows/1200/630.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://picsum.photos/seed/favicon/32/32.jpg" type="image/jpeg">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-contact">
+                    <span><i class="fas fa-phone"></i> +1 (234) 567-8900</span>
+                    <span><i class="fas fa-envelope"></i> info@watchandshows.com</span>
+                </div>
+                <div class="header-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <div class="header-container">
+                    <div class="logo">
+                        <i class="fas fa-clock"></i>
+                        Watch and Shows
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for watches...">
+                        <button type="button"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="header-actions">
+                        <a href="#"><i class="fas fa-user"></i></a>
+                        <a href="#"><i class="fas fa-heart"></i></a>
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge">3</span>
+                        </a>
+                    </div>
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li>
+                    <a href="#" class="nav-link" data-page="categories">Categories</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Luxury Watches</a></li>
+                        <li><a href="#">Smart Watches</a></li>
+                        <li><a href="#">Sports Watches</a></li>
+                        <li><a href="#">Classic Watches</a></li>
+                        <li><a href="#">Fashion Watches</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav-link" data-page="about">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Home Page -->
+    <div class="page active" id="home">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Premium Timepieces for Every Occasion</h1>
+                    <p>Discover our exclusive collection of luxury watches, smartwatches, and classic timepieces.</p>
+                    <div>
+                        <a href="#" class="btn">Shop Now</a>
+                        <a href="#" class="btn btn-outline">View Collection</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Featured Products Section -->
+        <section class="featured-products">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Products</h2>
+                    <p>Explore our handpicked selection of premium timepieces</p>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/luxurywatch1/400/400.jpg" alt="Luxury Watch">
+                            <span class="product-badge">New</span>
+                            <div class="product-actions">
+                                <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Luxury Watches</div>
+                            <h3 class="product-name">Classic Chronograph</h3>
+                            <div class="product-price">
+                                <span class="price-current">$1,299</span>
+                                <span class="price-original">$1,599</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/smartwatch1/400/400.jpg" alt="Smart Watch">
+                            <span class="product-badge">-20%</span>
+                            <div class="product-actions">
+                                <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Smart Watches</div>
+                            <h3 class="product-name">Tech Pro Smartwatch</h3>
+                            <div class="product-price">
+                                <span class="price-current">$399</span>
+                                <span class="price-original">$499</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/sportswatch1/400/400.jpg" alt="Sports Watch">
+                            <div class="product-actions">
+                                <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Sports Watches</div>
+                            <h3 class="product-name">Sport Runner Pro</h3>
+                            <div class="product-price">
+                                <span class="price-current">$249</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://picsum.photos/seed/classicwatch1/400/400.jpg" alt="Classic Watch">
+                            <span class="product-badge">Limited</span>
+                            <div class="product-actions">
+                                <a href="#" class="product-action-btn"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="product-action-btn"><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Classic Watches</div>
+                            <h3 class="product-name">Vintage Heritage</h3>
+                            <div class="product-price">
+                                <span class="price-current">$899</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Categories Section -->
+        <section>
+            <div class="container">
+                <div class="section-title">
+                    <h2>Shop by Category</h2>
+                    <p>Find the perfect timepiece for your style</p>
+                </div>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="https://picsum.photos/seed/luxurycat/400/400.jpg" alt="Luxury Watches">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Luxury Watches</h3>
+                            <p class="category-count">45 Products</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <img src="https://picsum.photos/seed/smartcat/400/400.jpg" alt="Smart Watches">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Smart Watches</h3>
+                            <p class="category-count">32 Products</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <img src="https://picsum.photos/seed/sportcat/400/400.jpg" alt="Sports Watches">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Sports Watches</h3>
+                            <p class="category-count">28 Products</p>
+                        </div>
+                    </div>
+                    
+                    <div class="category-card">
+                        <img src="https://picsum.photos/seed/classiccat/400/400.jpg" alt="Classic Watches">
+                        <div class="category-overlay">
+                            <h3 class="category-name">Classic Watches</h3>
+                            <p class="category-count">56 Products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <h2>Subscribe to Our Newsletter</h2>
+                        <p>Get the latest updates on new products and exclusive offers</p>
+                    </div>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Categories Page -->
+    <div class="page" id="categories">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb-list">
+                    <li><a href="#" data-page="home">Home</a></li>
+                    <li>Categories</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Page Title -->
+        <section>
+            <div class="container">
+                <div class="section-title">
+                    <h2>Watch Categories</h2>
+                    <p>Explore our diverse collection of timepieces</p>
+                </div>
+                <div class="category-grid">
+                    <div class="category-item">
+                        <div class="category-item-image">
+                            <img src="https://picsum.photos/seed/luxurywatches/400/300.jpg" alt="Luxury Watches">
+                        </div>
+                        <div class="category-item-content">
+                            <h3 class="category-item-title">Luxury Watches</h3>
+                            <p class="category-item-description">Exquisite timepieces crafted with precision and elegance for the discerning collector.</p>
+                            <div class="category-item-stats">
+                                <div class="stat">
+                                    <div class="stat-value">45</div>
+                                    <div class="stat-label">Products</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">12</div>
+                                    <div class="stat-label">Brands</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">4.8</div>
+                                    <div class="stat-label">Avg Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-item">
+                        <div class="category-item-image">
+                            <img src="https://picsum.photos/seed/smartwatches/400/300.jpg" alt="Smart Watches">
+                        </div>
+                        <div class="category-item-content">
+                            <h3 class="category-item-title">Smart Watches</h3>
+                            <p class="category-item-description">Cutting-edge technology meets style with our range of smartwatches.</p>
+                            <div class="category-item-stats">
+                                <div class="stat">
+                                    <div class="stat-value">32</div>
+                                    <div class="stat-label">Products</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">8</div>
+                                    <div class="stat-label">Brands</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">4.6</div>
+                                    <div class="stat-label">Avg Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-item">
+                        <div class="category-item-image">
+                            <img src="https://picsum.photos/seed/sportswatches/400/300.jpg" alt="Sports Watches">
+                        </div>
+                        <div class="category-item-content">
+                            <h3 class="category-item-title">Sports Watches</h3>
+                            <p class="category-item-description">Durable and functional timepieces designed for active lifestyles.</p>
+                            <div class="category-item-stats">
+                                <div class="stat">
+                                    <div class="stat-value">28</div>
+                                    <div class="stat-label">Products</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">6</div>
+                                    <div class="stat-label">Brands</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">4.7</div>
+                                    <div class="stat-label">Avg Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-item">
+                        <div class="category-item-image">
+                            <img src="https://picsum.photos/seed/classicwatches/400/300.jpg" alt="Classic Watches">
+                        </div>
+                        <div class="category-item-content">
+                            <h3 class="category-item-title">Classic Watches</h3>
+                            <p class="category-item-description">Timeless designs that never go out of style, perfect for any occasion.</p>
+                            <div class="category-item-stats">
+                                <div class="stat">
+                                    <div class="stat-value">56</div>
+                                    <div class="stat-label">Products</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">15</div>
+                                    <div class="stat-label">Brands</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">4.9</div>
+                                    <div class="stat-label">Avg Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-item">
+                        <div class="category-item-image">
+                            <img src="https://picsum.photos/seed/fashionwatches/400/300.jpg" alt="Fashion Watches">
+                        </div>
+                        <div class="category-item-content">
+                            <h3 class="category-item-title">Fashion Watches</h3>
+                            <p class="category-item-description">Trendy and stylish timepieces that complement your personal style.</p>
+                            <div class="category-item-stats">
+                                <div class="stat">
+                                    <div class="stat-value">38</div>
+                                    <div class="stat-label">Products</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">10</div>
+                                    <div class="stat-label">Brands</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">4.5</div>
+                                    <div class="stat-label">Avg Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="category-item">
+                        <div class="category-item-image">
+                            <img src="https://picsum.photos/seed/dive watches/400/300.jpg" alt="Dive Watches">
+                        </div>
+                        <div class="category-item-content">
+                            <h3 class="category-item-title">Dive Watches</h3>
+                            <p class="category-item-description">Water-resistant timepieces built for underwater adventures.</p>
+                            <div class="category-item-stats">
+                                <div class="stat">
+                                    <div class="stat-value">22</div>
+                                    <div class="stat-label">Products</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">7</div>
+                                    <div class="stat-label">Brands</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-value">4.8</div>
+                                    <div class="stat-label">Avg Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- About Page -->
+    <div class="page" id="about">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb-list">
+                    <li><a href="#" data-page="home">Home</a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- About Section -->
+        <section>
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Our Story</h2>
+                        <p>Founded in 2010, Watch and Shows has grown from a small boutique store to a premier destination for watch enthusiasts worldwide. Our passion for timepieces drives us to curate an exceptional collection that combines craftsmanship, innovation, and style.</p>
+                        <p>At Watch and Shows, we believe that a watch is more than just a timekeeping device—it's a statement of personal style, a reflection of appreciation for fine craftsmanship, and often a cherished heirloom passed down through generations.</p>
+                        <p>Our team of experts carefully selects each timepiece in our collection, ensuring that we offer only the finest watches from renowned brands as well as emerging designers who push the boundaries of watchmaking.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <div class="feature-content">
+                                    <h4>Authenticity Guaranteed</h4>
+                                    <p>All our watches are 100% authentic and come with manufacturer warranties.</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-truck"></i>
+                                <div class="feature-content">
+                                    <h4>Free Worldwide Shipping</h4>
+                                    <p>Enjoy complimentary shipping on all orders over $200.</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-undo"></i>
+                                <div class="feature-content">
+                                    <h4>30-Day Returns</h4>
+                                    <p>Not satisfied? Return your watch within 30 days for a full refund.</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-headset"></i>
+                                <div class="feature-content">
+                                    <h4>Expert Support</h4>
+                                    <p>Our team of watch specialists is here to help you find the perfect timepiece.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://picsum.photos/seed/watchstore/600/700.jpg" alt="Watch Store">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Team Section -->
+        <section class="team-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Meet Our Team</h2>
+                    <p>The passionate people behind Watch and Shows</p>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card" style="text-align: center;">
+                        <div class="product-image" style="height: 300px;">
+                            <img src="https://picsum.photos/seed/teammember1/400/400.jpg" alt="Team Member">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Alexander Chen</h3>
+                            <p class="product-category">Founder & CEO</p>
+                            <p>A watch collector with over 20 years of experience in luxury timepieces.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" style="text-align: center;">
+                        <div class="product-image" style="height: 300px;">
+                            <img src="https://picsum.photos/seed/teammember2/400/400.jpg" alt="Team Member">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Isabella Rodriguez</h3>
+                            <p class="product-category">Head Buyer</p>
+                            <p>Curating our collection with an eye for exceptional craftsmanship and design.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card" style="text-align: center;">
+                        <div class="product-image" style="height: 300px;">
+                            <img src="https://picsum.photos/seed/teammember3/400/400.jpg" alt="Team Member">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">James Mitchell</h3>
+                            <p class="product-category">Watch Specialist</p>
+                            <p>Helping customers find their perfect timepiece with expert knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Contact Page -->
+    <div class="page" id="contact">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <div class="container">
+                <ul class="breadcrumb-list">
+                    <li><a href="#" data-page="home">Home</a></li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Contact Section -->
+        <section>
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get in Touch</h2>
+                    <p>We'd love to hear from you</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Our Store</h4>
+                                <p>123 Timepiece Avenue<br>New York, NY 10001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>Mon-Fri: 9am-6pm EST<br>Sat: 10am-4pm EST<br>+1 (234) 567-8900</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p>General Inquiries: info@watchandshows.com<br>Customer Support: support@watchandshows.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9am - 8pm<br>Saturday: 10am - 6pm<br>Sunday: 12pm - 5pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6176143268785!2d-73.98784368459418!3d40.74844097932825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2593f6b5f7c5b%3A0x6b5f5f5f5f5f5f5f!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1629284733077!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About Watch and Shows</h3>
+                    <p>Your premier destination for luxury watches, smartwatches, and classic timepieces. Discover our curated collection of exceptional timepieces from renowned brands worldwide.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="categories">Categories</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#" data-page="contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Shipping Information</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Care Instructions</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Timepiece Avenue, New York, NY 10001</li>
+                        <li><i class="fas fa-phone"></i> +1 (234) 567-8900</li>
+                        <li><i class="fas fa-envelope"></i> info@watchandshows.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Watch and Shows. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- External JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
